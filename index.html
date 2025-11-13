@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Cobrinha em Fases</title>
+</head>
+<body>
+    <div id="game-container">
+        <h1>Passa tempo!</h1>
+        <div id="info">
+            <p>Fase: <span id="current-stage">1</span> / 10</p>
+            <p>Tamanho da Cobra: <span id="snake-length">1</span> / 50</p>
+        </div>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        
+        <div id="controls">
+            <button id="start-pause-button" class="control-button">Iniciar</button>
+            <button id="reset-button" class="control-button">Reiniciar</button>
+        </div>
+        
+        <p class="instructions">Use as setas (↑ ↓ ← →) para jogar.</p>
+        <p style="font-size: 10px;">Produzido e criado por Rodrigo Dantas Ferreira</p>
+    </div>
+</body>
