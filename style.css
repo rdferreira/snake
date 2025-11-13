@@ -1,0 +1,86 @@
+body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #282c34;
+            color: #fff;
+        }
+
+        #game-container {
+            text-align: center;
+            border: 2px solid #61dafb;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #333;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            color: #61dafb;
+            margin-bottom: 10px;
+        }
+
+        #info {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        #gameCanvas {
+            background-color: #1e2127;
+            border: 5px solid #61dafb;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .instructions {
+            margin-top: 15px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+        
+        /* Estilo para os novos botões */
+        #controls {
+            margin-top: 20px;
+        }
+
+        .control-button {
+            padding: 10px 20px;
+            margin: 0 5px;
+            font-size: 1em;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        #start-pause-button {
+            background-color: #4CAF50; /* Verde para Start/Resume */
+            color: white;
+        }
+
+        #start-pause-button:hover {
+            background-color: #45a049;
+        }
+        
+        /* Cor de pausa (opcional, pode ser diferente) */
+        #start-pause-button.paused {
+            background-color: #ff9800; /* Laranja para Pausa */
+        }
+        
+        #start-pause-button.paused:hover {
+             background-color: #e68900;
+        }
+
+        #reset-button {
+            background-color: #f44336; /* Vermelho para Reset */
+            color: white;
+        }
+
+        #reset-button:hover {
+            background-color: #da190b;
+        }
